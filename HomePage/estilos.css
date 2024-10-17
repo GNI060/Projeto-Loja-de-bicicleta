@@ -1,6 +1,7 @@
-html, body {
-    height: 100%;
-    margin: 0;  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .caixa {
@@ -14,8 +15,7 @@ html, body {
 .header {
     height: 70px;
     width: 100%;
-    background-color: #68d6a3ff;
-    border: none;
+    background-color: #68d6a3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,53 +29,29 @@ html, body {
     align-items: center;
 }
 
-.sobre {
+.sobre, .quiz, .contato {
     color: white;
     font-size: 40px;
 }
 
-.link-sobre {
+.link-sobre, .link-quiz, .link-contato {
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
 }
 
-.link-sobre:hover {
-    color: #48b281;
-}
-
-.quiz {
-    color: white;
-    font-size: 40px;
-}
-
-.link-quiz {
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.3s ease;
-}
-
-.link-quiz:hover {
-    color: #48b281;
-}
-
-.contato {
-    color: white;
-    font-size: 40px;
-}
-
-.link-contato {
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.3s ease;
-}
-
-.link-contato:hover {
+.link-sobre:hover, .link-quiz:hover, .link-contato:hover {
     color: #48b281;
 }
 
 .carrinho {
     border: none;
-    background-color: #68d6a3ff;
+    background-color: #68d6a3;
+    cursor: pointer;
+}
+
+.btn-carrinho {
+    background: none;
+    border: none;
     cursor: pointer;
 }
