@@ -1,0 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+   
+}
+
+.caixa {
+    border: none;
+    background-color: green;
+}

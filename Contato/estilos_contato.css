@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin: 0;  
+}
+
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: #68d6a3ff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sobre {
+    color: white;
+    font-size: 25px;
+}
+
+.link-sobre {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link-sobre:hover {
+    color: #48b281;
+}
+
+.quiz {
+    color: white;
+    font-size: 25px;
+}
+
+.link-quiz {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link-quiz:hover {
+    color: #48b281;
+}
+
+.contato {
+    color: white;
+    font-size: 25px;
+}
+
+.link-contato {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link-contato:hover {
+    color: #48b281;
+}
+
+.carrinho {
+    border: none;
+    background-color: #68d6a3ff;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 50vh; 
+    text-align: center; 
+}
+
+.frase_contato {
+    font-size: 30px;
+}
+
+.telefone_email {
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome {
+    border: 1px solid black;
+    width: 50pc;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.telefone {
+    border: 1px solid black;
+    width: 50pc;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.email {
+    border: 1px solid black;
+    width: 50pc;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    border: 1px solid black;
+    width: 50pc;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
